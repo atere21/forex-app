@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;800&display=swap');
+
+/* :root {
+  --primary-dark: #caad05;
+  --primary-light: #709dff;
+} */
+
+
+@layer base {
+  html {
+    @apply scroll-smooth
+  }
+
+  body {
+   @apply font-[Poppins];
+  
+  
+  }
+
+  li {
+    @apply p-4 text-sm
+  }
+
+  button {
+    @apply px-4 py-2 border rounded-md bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)] text-white
+  }
+
+ 
+}
+
+@keyframes flip {
+  from {
+    transform: perspective(400px) rotateY(0);
+  }
+  to {
+    transform: perspective(400px) rotateY(180deg);
+  }
+}
+
