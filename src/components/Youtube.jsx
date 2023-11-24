@@ -2,7 +2,7 @@ import React from 'react';
 
 const YouTube = () => {
   return (
-    <div className="flex justify-center bg-gray-400 items-center h-full w-full">
+    <div name="about" className="flex justify-center bg-gray-400 items-center h-full w-full">
       <div className="w-full">
         <div className="relative" style={{ paddingTop: '56.25%', width: '100%' }}>
           <iframe

@@ -41,3 +41,65 @@
   }
 }
 
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-blink {
+  animation: blink 1s linear infinite;
+}
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.app-container {
+  width: 100%;
+  height: 100%;
+}
+
+/* Styles for larger screens */
+/* ... (your existing styles) ... */
+
+/* Media query for tablets */
+@media (max-width: 1024px) {
+  /* Adjustments for tablets */
+  /* For example: */
+  .container {
+    max-width: 960px; /* Adjust container's max-width for tablets */
+  }
+  /* Other tablet-specific styles */
+}
+
+/* Media query for smaller tablets */
+@media (max-width: 768px) {
+  /* Adjustments for smaller tablets */
+  /* For example: */
+  .container {
+    max-width: 720px; /* Adjust container's max-width for smaller tablets */
+  }
+  /* Other smaller tablet-specific styles */
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+  /* Adjustments for mobile devices */
+  /* For example: */
+  .container {
+    max-width: 100%; /* Set container's max-width to full width on mobile */
+  }
+  /* Other mobile-specific styles */
+}
+

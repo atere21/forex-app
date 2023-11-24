@@ -9,10 +9,12 @@ import Withdrawals from './components/Withdrawals'
 import About from './components/About'
 import Faq from './components/FAQ\'s/Faq'
 
+import Footer from './components/Footer'
+
 
 const App = () => {
   return (
-    <div className='App'>
+    <div className='app-container container'>
       <Navbar/>
       <Hero/>
       <YouTube/>
@@ -22,6 +24,7 @@ const App = () => {
       <Why/>
       <Withdrawals/>
       <Faq/>
+      <Footer/>
     </div>
   )
 }

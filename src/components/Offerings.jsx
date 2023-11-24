@@ -2,7 +2,7 @@ import React from 'react';
 
 const Offerings = () => {
   return (
-    <div className='w-screen h-full py-10 bg-gray-300 text-[#030355]'>
+    <div name="features" className='w-screen h-full py-10 bg-gray-300 text-[#030355]'>
       <div className='max-w-full max-h-[70%] mx-auto px-20'>
         <h1 className='text-3xl grid sm:text-6xl text-center mb-8 font-bold'>Our Offerings</h1>
         <div className='grid grid-cols-1 sm:grid-cols-4 gap-8  justify-center items-center'>
